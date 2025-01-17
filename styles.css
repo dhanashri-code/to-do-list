@@ -1,0 +1,135 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: cursive;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 550px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task-item.completed .task-name {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.task-actions i {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fa-check {
+  color: #37d749;
+  font-size: 23px;
+}
+
+.task-actions .fa-trash {
+  color: rgb(210, 18, 18);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #c9b4bf;
+}
+
+body.dark-mode .container {
+  background: #383434;
+  box-shadow: 4px 4px 7px rgba(259, 257, 257, 0.2);
+}
+
+body.dark-mode .task-item {
+  background: #101010;
+}
+
+body.dark-mode .task-name {
+  color: #fff;
+  font-size: 23px;
+}
+
+body.dark-mode .add-task-btn {
+  background-color: #df9e7b;
+}
+
+body.dark-mode .dark-mode-btn {
+  color: #ccc;
+  text-align: left;
+}
+
+body.dark-mode .task-item.completed .task-name {
+  text-decoration: line-through;
+  color: #deeefc;
+}
+
+body.dark-mode .fa-trash {
+  color: #ff6b6b;
+}
+
+body.dark-mode .fa-check {
+  color: #37d749;
+  font-size: 23px;
+}
+
+.dark-mode-btn {
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  align-items: end;
+}
