@@ -9,7 +9,7 @@ Clicking the "Toggle Theme" button applies the dark-mode class to
 the <body> element,switching styles dynamically.
 
 2. Add Task: 
-Add tasks using the input field and the "Add" button.
+Add tasks using the input field and the "Add Task" button.
 
 4. Edit Task:
 Opens a prompt to edit the task text.
