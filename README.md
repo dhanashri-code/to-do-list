@@ -11,11 +11,12 @@ the <body> element,switching styles dynamically.
 2. Add Task: 
 Add tasks using the input field and the "Add Task" button.
 
-4. Edit Task:
+3. Edit Task:
 Opens a prompt to edit the task text.
 
-5. Delete Task:
-Removes the <li> element for the corresponding task.
+4. Delete Task:
+Removes the <li> element for the
+corresponding task.
 
-6. Check Task:
+5. Check Task:
 Toggles the completed class, applying a strike-through effect.
