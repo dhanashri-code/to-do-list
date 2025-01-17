@@ -15,8 +15,7 @@ Add tasks using the input field and the "Add Task" button.
 Opens a prompt to edit the task text.
 
 4. Delete Task:
-Removes the <li> element for the
-corresponding task.
+Removes the <li> element for the corresponding task.
 
 5. Check Task:
 Toggles the completed class, applying a strike-through effect.
